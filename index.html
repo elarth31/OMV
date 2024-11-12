@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OMV</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-wrap container">
+        <div class="header-logo">
+          <img src="./images/logo.png" alt="Logo" class="logo-image" />
+        </div>
+        <nav class="header-nav">
+          <!-- <button
+            type="button"
+            class="menu-btn btn"
+            data-menu-open
+            aria-label="open menu"
+          >
+            <img src="./images/icon/burger.svg" alt="open" />
+          </button>
+          <div
+            class="header-menu header-mobile-menu header-mobile-menu--is-hidden"
+            data-menu
+          >
+            <button
+              type="button"
+              class="menu-btn--close btn"
+              data-menu-close
+              aria-label="close menu"
+            >
+              <img src="./images/icon/close.svg" alt="close" />
+            </button> -->
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="#">Principal</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="#">Rețeaua noastră</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="#">Carduri de reducere</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="#">Cumpărați</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="#">Contacte</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+     <section class="hero container">
+      <div class="hero-wrap">
+        <div class="hero-content">
+          <h1  class="title-hero">OMV</h1>
+          <h2 class="hero-subtitle">online voucher shop</h2>
+          <p class="description">
+            Cardurile de carburant OMV: beneficii maxime pentru benzinăriile
+            dumneavoastră
+          </p>
+          <nav class="hero-nav">
+              <a class="hero-nav-link--orange link btn" href="#3"
+                >Carduri de reducere</a
+              >
+              <a class="hero-nav-link--green link btn" href="/pages/order.html"
+                >Cumpărați</a
+              >
+          </nav>
+        </div>
+        <div class="hero-img">
+         <picture>
+              <source
+                srcset="/images/Main-pictures@1.png 1x, /images/Main-pictures@2.png 2x">
+              <img src="/images/Main-pictures.png" alt="HeroCards"
+            ></picture>
+        </div>
+        <div class="hero-img-circle">
+            <picture>
+              <source
+                srcset="/images/Background-Circle.png   1x,
+                 /images/Background-Circle@2.png        2x">
+              <img src="/images/Background-Circle.png" alt="HeroCards"
+            ></picture>
+          </div>
+      </div>
+       <div class="bottom-banner" id="logo-list">
+        <div class="scroll-text" >
+          <ul class="hero-logo-line-list"  >
+            <li class="hero-logo-line-item">
+              <img class="logo-banner" src="/images/icon/OMV.svg" alt="OMV">
+            </li>
+            <li class="hero-logo-line-item">
+              <img class="logo-banner" src="/images/icon/OMVbold.svg" alt="OMV">
+            </li>
+            <li class="hero-logo-line-item">
+              <img class="logo-banner" src="/images/icon/OMV.svg" alt="OMV">
+            </li>
+            <li class="hero-logo-line-item mob-none">
+              <img class="logo-banner"src="/images/icon/OMVbold.svg" alt="OMV">
+            </li>
+            <li class="hero-logo-line-item mob-none">
+              <img class="logo-banner" src="/images/icon/OMV.svg" alt="OMV">
+            </li>
+            <li class="hero-logo-line-item mob-none">
+              <img class="logo-banner" src="/images/icon/OMVbold.svg" alt="OMV">
+            </li>
+            <li class="hero-logo-line-item mob-none tab-none">
+              <img class="logo-banner" src="/images/icon/OMV.svg" alt="OMV">
+            </li>
+            <li class="hero-logo-line-item mob-none tab-none">
+              <img class="logo-banner" src="/images/icon/OMVbold.svg" alt="OMV">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="bottom-banner">
+      <div class="scroll-text">
+        <img src="omv-logo.svg" alt="OMV Logo" class="logo" />
+        <span>OMV</span>
+        <img src="omv-logo.svg" alt="OMV Logo" class="logo" />
+        <span>OMV</span>
+        
+      </div>
+    </div> -->
+  </main>
+    <footer></footer>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
